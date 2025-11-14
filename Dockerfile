@@ -27,7 +27,8 @@ EXPOSE 8090
 
 # 환경 변수 기본값 설정
 ENV PORT=8090
-ENV JSON_DATA_PATH=/app/data
+# JSON_DATA_PATH는 application.properties의 기본값 ./data 사용
+# Railway에서 필요시 환경 변수로 오버라이드 가능
 
 # 애플리케이션 실행
 ENTRYPOINT ["java", "-jar", "app.jar"]
