@@ -1,0 +1,14 @@
+# Railway/Nixpacks 빌드 설정
+# 참고: Dockerfile이 있으면 Railway는 Dockerfile을 우선 사용합니다
+[phases.setup]
+nixPkgs = ["gradle_8", "jdk17"]
+
+[phases.build]
+cmds = ["gradle bootJar --no-daemon"]
+
+[phases.start]
+cmd = "java -jar build/libs/*.jar"
+
+[staticAssets]
+"build/libs" = "."
+

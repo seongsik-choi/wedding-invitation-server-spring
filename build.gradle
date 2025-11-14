@@ -36,3 +36,12 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
+// JAR 파일 이름 명시적 설정
+jar {
+    enabled = false
+}
+
+bootJar {
+    archiveFileName = "${project.name}-${project.version}.jar"
+}
+

@@ -1,0 +1,30 @@
+# Gradle
+.gradle
+build
+!build/libs/*.jar
+
+# IDE
+.idea
+.vscode
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Data files (will be created at runtime)
+data/*.json
+
+# Logs
+*.log
+
+# Documentation
+README.md
+DEPLOYMENT.md
+
