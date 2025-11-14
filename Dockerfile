@@ -13,7 +13,7 @@ COPY src src
 RUN gradle bootJar --no-daemon
 
 # 런타임 이미지
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
