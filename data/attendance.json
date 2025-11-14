@@ -1,0 +1,22 @@
+[ {
+  "id" : 1,
+  "side" : "groom",
+  "name" : "신랑친구1",
+  "meal" : "undecided",
+  "count" : 1,
+  "timestamp" : 1763095555
+}, {
+  "id" : 2,
+  "side" : "groom",
+  "name" : "신랑친구2",
+  "meal" : "yes",
+  "count" : 100,
+  "timestamp" : 1763095575
+}, {
+  "id" : 3,
+  "side" : "groom",
+  "name" : "신랑친구3",
+  "meal" : "no",
+  "count" : 5,
+  "timestamp" : 1763095585
+} ]
